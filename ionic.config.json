@@ -1,5 +1,7 @@
 {
   "name": "came",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      codesundar.com
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+   <div class="container-fluid">
+      <img src="{{ imgURL }}" alt="" height="200" width="200">
+      <ion-button [click]="getCamera()">From camera</ion-button>
+      <ion-button [click]="getGallery()">From Gallery</ion-button>
+   </div>
+</ion-content>
